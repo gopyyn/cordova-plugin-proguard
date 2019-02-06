@@ -76,6 +76,8 @@
 -keep class com.worklight.androidgap.push.** { *; }
 -keep class com.worklight.wlclient.push.** { *; }
 
+-keep class com.thegrizzlylabs.** { *; }
+
 # Enable proguard with Google libs
 -keep class com.google.** { *; }
 -dontwarn com.google.common.**
